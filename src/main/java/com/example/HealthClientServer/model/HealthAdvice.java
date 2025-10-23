@@ -1,7 +1,9 @@
 package com.example.HealthClientServer.model;
 
-public class HealthAdvice {
+import org.springframework.stereotype.Component;
 
+@Component
+public class HealthAdvice {
     private String advice;
     private String username;
 
